@@ -7,7 +7,6 @@ using namespace std;
 typedef pair<int, int> pii;
 
 int n, m;
-// MAXN is the largest possible number of nodes
 vector<pii> g[MAXN];
 vector<int> path, stage(MAXN);
 vector<bool> used;

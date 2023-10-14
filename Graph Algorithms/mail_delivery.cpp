@@ -71,8 +71,8 @@ bool eulerian_path(int s, bool is_cycle) {
 }
 
 int main() {
-    // ios::sync_with_stdio(false);
-    // cin.tie(NULL);
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
 
     cin >> n >> m;
 
