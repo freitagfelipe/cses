@@ -10,12 +10,6 @@ int main() {
 
     cin >> n;
 
-    string s;
-
-    for (int i {}; i < n; ++i) {
-        s += '0';
-    }
-
     vector<vector<string>> dp(n);
 
     dp[0].push_back("0");
@@ -33,7 +27,7 @@ int main() {
         }
     }
 
-    for (string x : dp.back()) {
+    for (string &x : dp.back()) {
         cout << x << '\n';
     }
 
